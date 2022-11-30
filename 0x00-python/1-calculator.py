@@ -1,8 +1,8 @@
 '''
-Asks user to enter 2 numbers and store them as num1 and num2
-convert the numbers to inters
-Calculates the sum, difference, product, quatient, modulus
-Print the results
+* Asks user to enter 2 numbers and store them as num1 and num2
+* converts the numbers to integers
+* Calculates the sum, difference, product, quatient, modulus
+* Print the results
 '''
 num1, num2 = input("Enter 2 numbers: ").split()
 
