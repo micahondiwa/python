@@ -12,8 +12,7 @@
 
 | File  | Description |
 | ---  | --- |
-|[0-hello.py](0-hello.py)|Ask user to enter their name  and store it a variable called name
-Print out ```Hello, name```|
+|[0-hello.py](0-hello.py)|Ask user to enter their name  and store it a variable called name,a dn prints out ```Hello, name```|
 |[1-calculator.py](1-calculator.py)|Asks user to enter 2 numbers and store them as num1 and num2. Converts the numbers to integers. Calculates the sum, difference, product, quatient, modulus, and print the results.|
 |[2-converter.py](2-converter.py)|Receives miles and converts to kilometers, and converts miles to a float.|
 |[3-claculator.py](-claculator.py)|Store user input of 2 numbers and the operator of choice, convert the numbers int ints, if  + then we need to provide output based on addition, and print the result.|
@@ -43,24 +42,4 @@ Print out ```Hello, name```|
 |[27-file_io.py](27-file_io.py)|Readining and writing files in python.|
 |[28-dog_class.py](28-dog_class.py)| Implementing a class dog, with different attributes and methods.|
 |[29-square_class.py](29-square_class.py)|A class square, with different attributes and methods.|
-|[30-warrior.py](30-warrior.py)|Warrior game: Sam attacks Paul and deals 9 damage. Paul is down to 10 health. Sam is down to 7 health. Sam attacks Paul and deals 19 damage. Paul is down to -9 health. Paul has Died and Sam is victorious. Game over!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|[30-warrior.py](30-warrior.py)|Warrior game: Sam attacks Paul and deals 9 damage. Paul is down to 10 health. Sam is down to 7 health. Sam attacks Paul and deals 19 damage. Paul is down to -9 health. Paul has Died and Sam is victorious. Game over!|
