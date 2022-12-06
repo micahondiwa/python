@@ -43,3 +43,4 @@
 |[28-dog_class.py](28-dog_class.py)| Implementing a class dog, with different attributes and methods.|
 |[29-square_class.py](29-square_class.py)|A class square, with different attributes and methods.|
 |[30-warrior.py](30-warrior.py)|Warrior game: Sam attacks Paul and deals 9 damage. Paul is down to 10 health. Sam is down to 7 health. Sam attacks Paul and deals 19 damage. Paul is down to -9 health. Paul has Died and Sam is victorious. Game over!|
+|[31-pattern.py](31-pattern.py)|A python program to print a pattern using loops. |
