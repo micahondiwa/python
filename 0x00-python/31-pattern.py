@@ -1,9 +1,9 @@
-for i in range (1):
-  for j in range (1):
-    print(0, 0, "X")
-for i in range (1):
-  for j in range (1):
-    print(0, "X", 0)
-for i in range (1):
-  for j in range (1):
-    print("X", 0, 0)
+def pattern(n):
+    for row in range(n-1, -1, -1):
+        for col in range(n):
+            if row == col:
+                print('X', end='')
+            else:
+                print('0', end='')
+        print()
+pattern(3)
