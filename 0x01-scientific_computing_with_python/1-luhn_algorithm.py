@@ -1,5 +1,4 @@
-'''0-string_manipulation_cipher.py
-
+'''
 Error-checking in various applications such as 
 credit card numbers.
 '''
