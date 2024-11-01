@@ -41,7 +41,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
         
         constraints = [
             (nums, '[0-9]'),
-            (lowercase, 'a-z'),
+            (lowercase, '[a-z]'),
             (uppercase, '[A-Z]')
         ]
         pattern = ('[^a-z]t') 
