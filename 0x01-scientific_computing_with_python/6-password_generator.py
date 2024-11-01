@@ -42,7 +42,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
         constraints = [
             (nums, '')
         ]
-        pattern = re.compile('i') 
+        pattern = re.compile('l+') 
         quote = 'Not all those who wander are lost.'       
         print(pattern.search(quote))
     
