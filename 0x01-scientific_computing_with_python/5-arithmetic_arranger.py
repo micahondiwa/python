@@ -56,4 +56,5 @@ def arithmetic_arranger(problems, show_answers=False):
     if show_answers:
         answers = answers.rstrip()
         arranged += "\n" + answers + "\n" + underline
-
+    
+    return arranged
