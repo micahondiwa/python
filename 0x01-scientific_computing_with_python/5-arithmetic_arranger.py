@@ -24,5 +24,8 @@ def arithmetic_arranger(problems, show_answers=False):
             return "Error: Operator must be '+' or '-'."
         
         # Check if operands are digits only
-        if not (problem[0].isdigit() and problem[1].isdigit())
+        if not (problem[0].isdigit() and problem[1].isdigit()):
+            return "Error: Numbers must only contain digits."
+        
+        # Check if operands have more than 4 digits
         
