@@ -29,5 +29,5 @@ def arithmetic_arranger(problems, show_answers=False):
         
         # Check if operands have more than 4 digits
         if len(problem[0]) > 4 or len(problem[1]) > 4:
-            
+            return "Error: Numbers cannot be more than four digits"
         
