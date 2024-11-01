@@ -13,6 +13,7 @@ def arithmetic_arranger(problems, show_answers=False):
     for problem in problems:
         problem = problem.replace(" ", "")
 
+        # Check if operator is supported
         if "+" in problem:
             problem = problem.split("+")
             operator = "+"
