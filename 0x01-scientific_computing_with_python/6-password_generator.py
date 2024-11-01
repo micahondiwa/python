@@ -7,4 +7,4 @@ symbols = string.punctuation
 
 all_characters = letters + digits + symbols
 
-print(symbols)
+print(all_characters)
