@@ -32,7 +32,7 @@ def arithmetic_arranger(problems, show_answers=False):
             return "Error: Numbers cannot be more than four digits"
         
         # Width for formatting
-        width = max([len(problem[0]), problem[1]]) + 2
+        width = max([len(problem[0]), len(problem[1])]) + 2
 
         # Calculating answers if show_answers = True
         if show_answers:
@@ -60,4 +60,4 @@ def arithmetic_arranger(problems, show_answers=False):
     return arranged
 
 # Example implentation
-print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]))
+print(arithmetic_arranger(["32 + 698"]))
