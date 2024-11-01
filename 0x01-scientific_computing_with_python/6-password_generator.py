@@ -44,7 +44,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
         ]
         pattern = ('l+') 
         quote = 'Not all those who wander are lost.'       
-        print(re.search(quote))
+        print(re.search(pattern, quote))
     
     return password
 
