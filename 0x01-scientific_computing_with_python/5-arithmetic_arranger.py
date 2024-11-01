@@ -49,5 +49,5 @@ def arithmetic_arranger(problems, show_answers=False):
     operator = operator.rstrip()
     underline = underline.rstrip()
 
-    # Combine all lines
-    
+    # Combining all lines
+
