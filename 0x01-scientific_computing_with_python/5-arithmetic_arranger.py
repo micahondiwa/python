@@ -23,3 +23,5 @@ def arithmetic_arranger(problems, show_answers=False):
         else:
             return "Error: Operator must be '+' or '-'."
         
+        # Check if operands are digits only
+        
