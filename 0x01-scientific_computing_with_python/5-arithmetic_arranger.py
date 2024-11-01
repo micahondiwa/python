@@ -36,7 +36,8 @@ def arithmetic_arranger(problems, show_answers=False):
 
         # Calculating answers if show_answers = True
         if show_answers:
-            anwers = str(eval(problem[0] + operator + problem[1]))
+            anwer = str(eval(problem[0] + operator + problem[1]))
+            
 
 
         first_operand += problem[0].rjust(width) + "    "
