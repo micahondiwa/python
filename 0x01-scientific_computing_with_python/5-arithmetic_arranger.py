@@ -8,3 +8,5 @@ def arithmetic_arranger(problems, show_answers=False):
     operator_and_second_operand = ""
     underline = ""
     results = ""
+
+    # Looping through each problem in the problem list
