@@ -49,6 +49,6 @@ def arithmetic_arranger(problems, show_answers=False):
     operator = operator.rstrip()
     underline = underline.rstrip()
 
-    # Combining all lines
+    # Combining the 3 lines
     arranged = "\n".join([first_operand, operator, underline])
 
