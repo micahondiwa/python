@@ -38,7 +38,11 @@ def arithmetic_arranger(problems, show_answers=False):
         if show_answers:
             anwer = str(eval(problem[0] + operator + problem[1]))
             answers += anwer.rjust(width) + "    "
-
+        
+        # The first three lines 
         first_operand += problem[0].rjust(width) + "    "
         operator_and_second_operand += operator + problem[1].rjust(width - 1) + "    "
         underline += "-" * (width) + "    "
+    
+    # Removing trailing white spaces
+    
