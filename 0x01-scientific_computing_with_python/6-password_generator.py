@@ -11,4 +11,4 @@ symbols = string.punctuation
 all_characters = letters + digits + symbols
 
 print(random.choice(all_characters))
-print(random.choice(all_characters))
+print(secrets.choice(all_characters))
