@@ -8,7 +8,7 @@ the second argument is set to True, the answers should be
 displayed.
     inputs: 
     problems: A list of strings of arithmetic problems.
-    show_answers: Tuple (True or)
+    show_answers: Tuple( Default: False)
 """
 
 def arithmetic_arranger(problems, show_answers=False):
