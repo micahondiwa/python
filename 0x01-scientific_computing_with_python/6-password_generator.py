@@ -11,11 +11,12 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
     # Combine all characters
     all_characters = letters + digits + symbols
 
-    password = ''
+    while True:
+        password = ''
 
-    # Generate password
-    for _ in range(length):
-        password += secrets.choice(all_characters)
+        # Generate password
+        for _ in range(length):
+            password += secrets.choice(all_characters)
     
     return password
 
