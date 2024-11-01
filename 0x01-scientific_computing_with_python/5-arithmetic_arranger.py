@@ -53,5 +53,5 @@ def arithmetic_arranger(problems, show_answers=False):
     arranged = "\n".join([first_operand, operator, underline])
 
     # Adding answers if show_answers = True
-    
+    if show_answers:
 
