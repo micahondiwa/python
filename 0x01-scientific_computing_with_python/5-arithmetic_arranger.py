@@ -9,7 +9,7 @@ def arithmetic_arranger(problems, show_answers=False):
     underline = ""
     results = ""
 
-    # Looping through each problem in the problem list
+    # Remove white space
     for problem in problems:
         problem = problem.replace(" ", "")
 
@@ -21,3 +21,4 @@ def arithmetic_arranger(problems, show_answers=False):
             operator = "-"
         else:
             return "Error: Operator must be '+' or '-'."
+        
