@@ -13,4 +13,5 @@ def arithmetic_arranger(problems, show_answers=False):
     for problem in problems:
         problem = problem.replace(" ", "")
 
-        if 
+        if "+" in problem:
+            problem = problem.split("+")
