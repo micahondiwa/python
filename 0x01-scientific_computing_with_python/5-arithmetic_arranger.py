@@ -6,4 +6,5 @@ def arithmetic_arranger(problems, show_answers=False):
     # Variables for storing each line of the arranged problem
     first_operand = ""
     operator_and_second_operand = ""
+    underline = ""
     
