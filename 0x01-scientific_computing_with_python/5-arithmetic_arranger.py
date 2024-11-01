@@ -1,3 +1,4 @@
+'''5-arithmetic_arranger.py module'''
 def arithmetic_arranger(problems, show_answers=False):
     # Checking if there are too many problems
     if len(problems) > 5:
