@@ -1,5 +1,9 @@
 '''5-arithmetic_arranger.py module'''
 
+""" 
+Receives a list of strings which are arithmetic problmes,
+and returns the problems arranged vertically and side 
+
 
 def arithmetic_arranger(problems, show_answers=False):
     # Checking if there are too many problems
