@@ -37,4 +37,4 @@ def arithmetic_arranger(problems, show_answers=False):
         # Calculating answers if show_answers = True
         first_operand += problem[0].rjust(width) + "    "
         operator_and_second_operand += operator + problem[1].rjust(width - 1) + "    "
-        underline += "-" * (width) + "    "
+        underline += "-" * (width) + "   "
