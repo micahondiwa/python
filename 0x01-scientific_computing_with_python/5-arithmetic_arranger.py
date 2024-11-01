@@ -11,3 +11,6 @@ def arithmetic_arranger(problems, show_answers=False):
 
     # Looping through each problem in the problem list
     for problem in problems:
+        problem = problem.replace(" ", "")
+
+        if 
