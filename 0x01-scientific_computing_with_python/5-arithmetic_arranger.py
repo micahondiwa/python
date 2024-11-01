@@ -4,4 +4,6 @@ def arithmetic_arranger(problems, show_answers=False):
         return "Error: Too many problems."
     
     # Variables for storing each line of the arranged problem
-    first_line = ""
+    first_operand = ""
+    operator_and_second_operand = ""
+    
