@@ -43,7 +43,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
             (nums, r'\d'),
             (lowercase, r'[a-z]'),
             (uppercase, r'[A-Z]'),
-            (special_chars, r'\w')
+            (special_chars, fr'[{symbols}]')
         ]
         pattern = r'\W'
         quote = 'Not all those who wander are lost.'       
