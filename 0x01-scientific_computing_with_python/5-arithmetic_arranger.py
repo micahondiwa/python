@@ -46,4 +46,4 @@ def arithmetic_arranger(problems, show_answers=False):
     
     # Removing trailing white spaces
     first_operand = first_operand.rstrip()
-    operator = operator
+    operator = operator.rstrip()
