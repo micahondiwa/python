@@ -1,7 +1,7 @@
-problem0 = ["3801 - 2", "123 + 49"]
-problem1 = ["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"]
-print(problem1[3])
-
-
-#print("3801      123\n-    2    +  49\n------    -----.")
-print("32      123      1      9999      523\n+  8    -  3801   +    9999    -    49\n------    -----.")
+def arithmetic_arranger(problems, show_answers=False):
+    # Checking if there are too many problems
+    if len(problems) > 5:
+        return "Error: Too many problems."
+    
+    # Variables for storing each line of the arranged problem
+    first_line = ""
