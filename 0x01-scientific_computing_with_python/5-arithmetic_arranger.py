@@ -46,11 +46,11 @@ def arithmetic_arranger(problems, show_answers=False):
     
     # Removing trailing white spaces
     first_operand = first_operand.rstrip()
-    operator = operator.rstrip()
+    operator_and_second_operand = operator_and_second_operand.rstrip()
     underline = underline.rstrip()
 
     # Combining the 3 lines
-    arranged = "\n".join([first_operand, operator, underline])
+    arranged = "\n".join([first_operand, operator_and_second_operand, underline])
 
     # Adding answers if show_answers = True
     if show_answers:
@@ -62,3 +62,5 @@ def arithmetic_arranger(problems, show_answers=False):
 # Example implentation
 print(arithmetic_arranger(["32 + 698"]))
 print(arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True))
+print(f'\n{arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])}')
+print(arithmetic_arranger(["24 + 85215", "3801 - 2", "45 + 43", "123 + 49"]))
