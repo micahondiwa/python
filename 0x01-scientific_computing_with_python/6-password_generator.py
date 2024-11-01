@@ -34,4 +34,4 @@ def generate_password(length=16,nums = 1,special_chars=1,uppercase=1, lowercase=
     return password
 
 new_password = generate_password()
-print("Generated password",new_password)
+print("Generated password: ",new_password)
