@@ -32,5 +32,5 @@ def arithmetic_arranger(problems, show_answers=False):
             return "Error: Numbers cannot be more than four digits"
         
         # Width for formatting
-        alignment = max([len(problem[0]), problem[1]]) + 2
+        width = max([len(problem[0]), problem[1]]) + 2
         
