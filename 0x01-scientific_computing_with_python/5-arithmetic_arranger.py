@@ -10,3 +10,4 @@ def arithmetic_arranger(problems, show_answers=False):
     results = ""
 
     # Looping through each problem in the problem list
+    for problem in problems:
