@@ -1,4 +1,4 @@
-import random
+import re
 import secrets
 import string
 
@@ -18,7 +18,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
         for _ in range(length):
             password += secrets.choice(all_characters)
         
-        constraints = []
+        constraints = [(nums, '')]
     
     return password
 
