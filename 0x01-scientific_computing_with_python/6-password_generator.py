@@ -40,7 +40,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
             password += secrets.choice(all_characters)
         
         constraints = [
-            (nums, '')
+            (nums, '[0123456789]')
         ]
         pattern = ('w[ha]') 
         quote = 'Not all those who wander are lost.'       
