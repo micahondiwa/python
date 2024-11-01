@@ -19,3 +19,5 @@ def arithmetic_arranger(problems, show_answers=False):
         elif "-" in problem:
             problem = problem.split("-")
             operator = "-"
+        else:
+            return "Error: Operator must be '+' or '-'."
