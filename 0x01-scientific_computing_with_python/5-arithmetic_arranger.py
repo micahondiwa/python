@@ -2,7 +2,9 @@
 
 """ 
 Receives a list of strings which are arithmetic problmes,
-and returns the problems arranged vertically and side 
+and returns the problems arranged vertically and side-by-side.
+The function should optionally take a second argument. When 
+the second argument is set to True, the answers 
 
 
 def arithmetic_arranger(problems, show_answers=False):
