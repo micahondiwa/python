@@ -13,3 +13,5 @@ def generate_password(length):
 
     password = ''
 
+    # Generate password
+
