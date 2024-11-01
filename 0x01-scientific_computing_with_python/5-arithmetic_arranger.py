@@ -7,7 +7,7 @@ def arithmetic_arranger(problems, show_answers=False):
     first_operand = ""
     operator_and_second_operand = ""
     underline = ""
-    results = ""
+    answers= ""
 
     # Remove white space
     for problem in problems:
