@@ -49,10 +49,6 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
         # Check constraints
         for constraint, pattern in constraints:
             pass
-        
-        pattern = r'\W'
-        quote = 'Not all those who wander are lost.'       
-        print(re.findall(pattern, quote))
     
     return password
 
