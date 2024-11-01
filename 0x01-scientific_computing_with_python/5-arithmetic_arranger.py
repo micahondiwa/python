@@ -18,3 +18,4 @@ def arithmetic_arranger(problems, show_answers=False):
             operator = "+"
         elif "-" in problem:
             problem = problem.split("-")
+            operator = "-"
