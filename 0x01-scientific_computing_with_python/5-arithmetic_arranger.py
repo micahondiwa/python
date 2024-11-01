@@ -7,6 +7,7 @@ The function should optionally take a second argument. When
 the second argument is set to True, the answers should be 
 displayed.
 
+"""
 
 def arithmetic_arranger(problems, show_answers=False):
     # Checking if there are too many problems
