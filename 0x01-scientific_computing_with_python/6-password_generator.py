@@ -9,4 +9,4 @@ symbols = string.punctuation
 # Combine all characters
 all_characters = letters + digits + symbols
 
-print(all_characters)
+print(random.choice(all_characters))
