@@ -54,5 +54,6 @@ def arithmetic_arranger(problems, show_answers=False):
 
     # Adding answers if show_answers = True
     if show_answers:
+        answers = answers.rstrip()
         
 
