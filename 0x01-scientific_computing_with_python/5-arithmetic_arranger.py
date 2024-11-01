@@ -17,4 +17,4 @@ def arithmetic_arranger(problems, show_answers=False):
             problem = problem.split("+")
             operator = "+"
         elif "-" in problem:
-            
+            problem = problem.split("-")
