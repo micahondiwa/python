@@ -49,7 +49,8 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
         # Check constraints
         count = 0
         for constraint, pattern in constraints:
-            constraint <= len(re.findall(pattern, password))
+            if constraint <= len(re.findall(pattern, password)):
+                count += 1
     
     return password
 
