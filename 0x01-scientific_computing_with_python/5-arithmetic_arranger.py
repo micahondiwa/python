@@ -28,4 +28,6 @@ def arithmetic_arranger(problems, show_answers=False):
             return "Error: Numbers must only contain digits."
         
         # Check if operands have more than 4 digits
+        if len(problem[0]) > 4 or len(problem[1]) > 4:
+            
         
