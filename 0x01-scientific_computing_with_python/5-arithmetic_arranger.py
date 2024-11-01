@@ -6,7 +6,9 @@ and returns the problems arranged vertically and side-by-side.
 The function should optionally take a second argument. When 
 the second argument is set to True, the answers should be 
 displayed.
-
+    inputs: 
+    problems: A list of strings of arithmetic problems.
+    show_answers: Tuple (True or)
 """
 
 def arithmetic_arranger(problems, show_answers=False):
