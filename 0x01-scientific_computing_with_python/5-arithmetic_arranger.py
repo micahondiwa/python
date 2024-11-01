@@ -35,6 +35,9 @@ def arithmetic_arranger(problems, show_answers=False):
         width = max([len(problem[0]), problem[1]]) + 2
 
         # Calculating answers if show_answers = True
+        if show_answers:
+
+
         first_operand += problem[0].rjust(width) + "    "
         operator_and_second_operand += operator + problem[1].rjust(width - 1) + "    "
         underline += "-" * (width) + "    "
