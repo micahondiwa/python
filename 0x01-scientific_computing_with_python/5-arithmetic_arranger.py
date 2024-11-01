@@ -45,4 +45,4 @@ def arithmetic_arranger(problems, show_answers=False):
         underline += "-" * (width) + "    "
     
     # Removing trailing white spaces
-    
+    first_operand
