@@ -48,3 +48,6 @@ def arithmetic_arranger(problems, show_answers=False):
     first_operand = first_operand.rstrip()
     operator = operator.rstrip()
     underline = underline.rstrip()
+
+    # Combine all lines
+    
