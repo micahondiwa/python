@@ -17,3 +17,5 @@ def dfs(graph, source):
         print(node)
         for neigbour in graph[node]:
             stack.append(neigbour)
+
+dfs(graph, "a")
