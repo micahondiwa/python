@@ -14,4 +14,5 @@ def dfs(graph, source):
 
     node = stack.pop(-1)
     print(node)
-    for
+    for neigbour in graph[node]:
+        stack.append(neigbour)
