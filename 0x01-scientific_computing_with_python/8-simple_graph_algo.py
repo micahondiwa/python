@@ -19,3 +19,10 @@ def dfs(graph, source):
             stack.append(neigbour)
 
 dfs(graph, "a")
+
+def bfs(graph, source):
+    queue = []
+    queue.append(source)
+
+    while stack:
+        node = stack.pop(0)
