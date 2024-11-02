@@ -5,10 +5,5 @@ my_graph = {
     'D': [('A', 1), ('C', 7)]
     } 
 
-# copper['food'] = 'hay'
-# del copper['age']
-# for i in copper.values():
-#     print(i)
-
-# for i, j in copper.items():
-#     print(f'{i}: {j}')
+def shortest_path():
+    pass
