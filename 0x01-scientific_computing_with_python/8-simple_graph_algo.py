@@ -28,6 +28,6 @@ def bfs(graph, source):
         node = stack.pop(0)
         print(node)
         for neigbour in graph[node]:
-            stack.append(neigbour)
+            queue.append(neigbour)
 
 bfs(graph, "a")
