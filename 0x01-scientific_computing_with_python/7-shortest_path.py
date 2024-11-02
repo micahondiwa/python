@@ -11,6 +11,6 @@ def shortest_path(graph, start):
     paths = {node: [] for node in graph}
     paths[start].append(start)
 
-    print(f'Unvisited: {unvisited}\nDistances: {distances}')
+    print(f'Unvisited: {unvisited}\nDistances: {distances}\nPaths: {paths}')
 
 shortest_path(my_graph, 'A')
