@@ -29,3 +29,5 @@ def bfs(graph, source):
         print(node)
         for neigbour in graph[node]:
             stack.append(neigbour)
+
+bfs(graph, "a")
