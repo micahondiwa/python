@@ -24,8 +24,8 @@ def bfs(graph, source):
     queue = []
     queue.append(source)
 
-    while stack:
-        node = stack.pop(0)
+    while queue:
+        node = queue.pop(0)
         print(node)
         for neigbour in graph[node]:
             queue.append(neigbour)
