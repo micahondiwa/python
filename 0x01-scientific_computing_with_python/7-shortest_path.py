@@ -5,4 +5,5 @@ copper = {
 
 print(copper['species'])
 copper['food'] = 'hay'
-print(copper)
+for i in copper.values():
+    print(i)
