@@ -1,1 +1,4 @@
-copper = {'species': 'guinea pig'}
+copper = {
+    'species': 'guinea pig',
+    'age': 2
+    }
