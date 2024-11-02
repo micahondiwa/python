@@ -1,6 +1,6 @@
 my_graph = {
     'A': 'B',
-    'age': 2
+    'B': 'A'
     } 
 
 # copper['food'] = 'hay'
