@@ -8,4 +8,6 @@ graph = {
     "g":['f']
 }
 
-def
+def dfs(graph, source):
+    stack = []
+    stack.append
