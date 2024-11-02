@@ -31,3 +31,12 @@ def bfs(graph, source):
             queue.append(neigbour)
 
 bfs(graph, "a")
+
+
+# copper['food'] = 'hay'
+# del copper['age']
+# for i in copper.values():
+#     print(i)
+
+# for i, j in copper.items():
+#     print(f'{i}: {j}')
