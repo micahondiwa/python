@@ -1,5 +1,5 @@
 my_graph = {
-    'species': 'guinea pig',
+    'A': 'B',
     'age': 2
     } 
 
