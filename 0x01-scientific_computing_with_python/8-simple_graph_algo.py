@@ -26,3 +26,5 @@ def bfs(graph, source):
 
     while stack:
         node = stack.pop(0)
+        print(node)
+        
