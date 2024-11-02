@@ -10,4 +10,8 @@ graph = {
 
 def dfs(graph, source):
     stack = []
-    stack.append
+    stack.append(source)
+
+    node = stack.pop(-1)
+    print(node)
+    for
