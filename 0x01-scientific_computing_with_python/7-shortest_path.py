@@ -11,3 +11,5 @@ def shortest_path(graph, start):
 
     for node in graph:
         unvisited.append(node)
+        if node == start:
+            distances[node] = 0
