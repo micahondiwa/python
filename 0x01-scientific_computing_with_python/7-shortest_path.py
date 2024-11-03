@@ -12,7 +12,7 @@ def shortest_path(graph, start):
     paths[start].append(start)
 
     while unvisited:
-        pass
+        current = min(unvisited)
 
     print(f'Unvisited: {unvisited}\nDistances: {distances}\nPaths: {paths}')
 
