@@ -34,4 +34,4 @@ my_graph = {
     'E': [('A', 11), ('C', 5), ('D', 9)],
     'F': [('B', 2), ('D', 3)]
 }
-shortest_path(my_graph, 'A')
+shortest_path(my_graph, 'A', 'F')
