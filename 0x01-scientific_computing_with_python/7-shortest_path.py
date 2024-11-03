@@ -24,6 +24,6 @@ def shortest_path(graph, start, target=''):
                 paths[node].append(node)
         unvisited.remove(current)
 
-    print(f'Unvisited: {unvisited}\nDistances: {distances}\nPaths: {paths}')
+    targets_to_print = [target] if target else graph
 
 shortest_path(my_graph, 'A')
