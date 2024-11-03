@@ -14,6 +14,9 @@ def shortest_path(graph, start):
     while unvisited:
         current = min(unvisited, key=distances.get)
 
+        for node, distance in graph[current]:
+            pass
+
     print(f'Unvisited: {unvisited}\nDistances: {distances}\nPaths: {paths}')
 
 shortest_path(my_graph, 'A')
