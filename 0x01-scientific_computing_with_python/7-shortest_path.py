@@ -21,6 +21,7 @@ def shortest_path(graph, start):
                     paths[node] == paths[current]
                 else:
                     paths[node].extend(paths[current])
+                paths[node].append(node)
 
     print(f'Unvisited: {unvisited}\nDistances: {distances}\nPaths: {paths}')
 
