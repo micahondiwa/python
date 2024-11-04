@@ -8,6 +8,7 @@ rods = {
     'C':[]
 }
 
-def move():
+def move(n, source, auxiliary, target):
     print(rods)
+
 move()
