@@ -5,3 +5,6 @@ rods = {
     'B':[],
     'C':[]
 }
+
+def move():
+    pass
