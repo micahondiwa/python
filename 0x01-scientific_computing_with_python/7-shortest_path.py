@@ -1,5 +1,5 @@
 
-'''7-shortest_path.py'''
+'''7-shortest_path.py module'''
 
 """
 Given a graph, the algorithm determines
