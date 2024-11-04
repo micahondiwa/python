@@ -1,4 +1,10 @@
 '''8-simple_graph_algo.py module'''
+
+""" 
+Implements both bfs and dfs
+algorithms on a simple graph
+"""
+
 graph = {
     "a": ["b", "d"],
     "b": [],
