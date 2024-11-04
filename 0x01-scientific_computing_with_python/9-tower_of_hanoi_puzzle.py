@@ -9,8 +9,9 @@ rods = {
 }
 
 def move(n, source, auxiliary, target):
+    
+    # display starting configuration
     print(rods)
 
-# Initiate call from source A to target C with 
-# auxiliary B
+# initiate call from source A to target C with auxiliary B
 move(NUMBER_OF_DISKS, 'A', 'B', 'C')
