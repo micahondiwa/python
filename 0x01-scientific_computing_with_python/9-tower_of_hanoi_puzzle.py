@@ -9,4 +9,4 @@ rods = {
 }
 
 def move():
-    pass
+    print(rods)
