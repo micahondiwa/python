@@ -25,6 +25,8 @@ def move(n, source, auxiliary, target):
                 forward = True
             elif rods[source] and rods[source][-1] < rods[target][-1]:
                 forward = True
+            if forward == True:
+                print(f'Moving disk {rods[source][-1] from {source} to {target}}')
 
 # initiate call from source A to target C with auxiliary B
 move(NUMBER_OF_DISKS, 'A', 'B', 'C')
