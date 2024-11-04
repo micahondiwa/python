@@ -1,6 +1,11 @@
 
 '''7-shortest_path.py'''
 
+"""
+Given a graph, the algorithm determines
+the shortest path from the start to the
+target.
+"""
 def shortest_path(graph, start, target=''):
     unvisited = list(graph)
     distances = {node: 0 if node == start else float('inf') for node in graph}
