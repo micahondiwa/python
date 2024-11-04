@@ -11,4 +11,4 @@ rods = {
 def move(n, source, auxiliary, target):
     print(rods)
 
-move()
+move(NUMBER_OF_DISKS, 'A', 'B', 'C')
