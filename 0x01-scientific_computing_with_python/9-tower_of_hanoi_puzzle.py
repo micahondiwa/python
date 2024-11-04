@@ -1,3 +1,7 @@
 '''9-tower_of_hanoi_puzzle.py module'''
 
-rods = {}
+rods = {
+    'A':[],
+    'B':[],
+    'C':[]
+}
