@@ -1,3 +1,4 @@
+'''8-simple_graph_algo.py module'''
 graph = {
     "a": ["b", "d"],
     "b": [],
