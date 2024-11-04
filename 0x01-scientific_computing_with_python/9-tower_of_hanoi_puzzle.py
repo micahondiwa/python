@@ -21,6 +21,8 @@ def move(n, source, auxiliary, target):
         elif remainder == 0:
             print(f'Move {i + 1} allowed between {auxiliary} and target')
             forward = False
+            if not rods[target]:
+                forward = True
 
 # initiate call from source A to target C with auxiliary B
 move(NUMBER_OF_DISKS, 'A', 'B', 'C')
