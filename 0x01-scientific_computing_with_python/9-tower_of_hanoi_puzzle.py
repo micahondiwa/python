@@ -27,4 +27,4 @@ def move(n, source, auxiliary, target):
 
 
 # initiate call from source A to target C with auxiliary B
-move(NUMBER_OF_DISKS, 'B', 'C', 'A')
+move(NUMBER_OF_DISKS, 'A', 'B', 'C')
