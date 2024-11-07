@@ -1,7 +1,7 @@
 '''
 0-string_manipulation_cipher.py
 Implements fundamental python concepts such as 
-loops and functions. 
+loops and functions 
 '''
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
