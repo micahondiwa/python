@@ -1,6 +1,6 @@
 '''
 Error-checking in various applications such as 
-credit card numbers.
+credit card numbers
 '''
 def verify_card_number(card_number):
     sum_of_odd_digits = 0
