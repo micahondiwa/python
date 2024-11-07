@@ -1,4 +1,4 @@
-'''8-simple_graph_algo.py module'''
+'''8-simple_graph_algorithm.py module'''
 
 """ 
 Implements both bfs and dfs
