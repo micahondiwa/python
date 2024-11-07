@@ -2,7 +2,7 @@
 
 """ 
 Implements both bfs and dfs
-algorithms on a simple graph
+algorithms on a simple graph.
 """
 
 graph = {
