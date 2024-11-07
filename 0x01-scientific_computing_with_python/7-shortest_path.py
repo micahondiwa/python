@@ -4,7 +4,7 @@
 """
 Given a graph, the algorithm determines
 the shortest path from the start to the
-target.
+target
 """
 def shortest_path(graph, start, target=''):
     unvisited = list(graph)
