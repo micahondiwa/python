@@ -5,7 +5,7 @@ Receives a list of strings which are arithmetic problmes,
 and returns the problems arranged vertically and side-by-side.
 The function should optionally take a second argument. When 
 the second argument is set to True, the answers should be 
-displayed.
+displayed
     inputs: 
         problems: A list of strings of arithmetic problems.
         show_answers: Tuple( Default: False)
