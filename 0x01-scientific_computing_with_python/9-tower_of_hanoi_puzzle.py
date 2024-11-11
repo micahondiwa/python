@@ -7,7 +7,7 @@ rods = {
 }
 
 def move(n, source, auxiliary, target):
-    # displaying starting configuration
+    # displaying starting configuration.
     print(rods)
     for i in range(number_of_moves):
         remainder = (i + 1) % 3
