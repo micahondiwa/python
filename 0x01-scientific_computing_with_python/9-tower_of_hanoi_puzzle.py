@@ -6,6 +6,10 @@ rods = {
     'C': []
 }
 
+def make_alloed_move():
+    pass 
+
+
 def move(n, source, auxiliary, target):
     # displaying starting configuration
     print(rods)
