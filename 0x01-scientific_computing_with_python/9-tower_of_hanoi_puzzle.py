@@ -6,7 +6,7 @@ rods = {
     'C': []
 }
 
-def make_alloed_move():
+def make_alloed_move(rod1, rod2):
     pass 
 
 
