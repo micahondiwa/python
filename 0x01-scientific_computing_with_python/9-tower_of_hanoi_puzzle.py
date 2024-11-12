@@ -25,6 +25,7 @@ def move(n, source, auxiliary, target):
                 print(f'Moving disk {rods[target][-1]} from {target} to {source}')
                 rods[source].append(rods[target].pop())
             # display progress
+            print(rods)
         elif remainder == 2:
             print(f'Move {i + 1} allowed between {source} and {auxiliary}')
         elif remainder == 0:
