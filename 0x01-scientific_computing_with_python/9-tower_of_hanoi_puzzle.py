@@ -22,7 +22,7 @@ def make_allowed_move(rod1, rod2):
     print(rods, '\n')
 
 def move(n, source, auxiliary, target):
-    # display starting configuration
+    # display starting configuration.
     print(rods,'\n')
     for i in range(number_of_moves):
         remainder = (i + 1) % 3
