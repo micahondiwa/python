@@ -1,7 +1,8 @@
 # python
-Python learning path including Kivy and Django
+Python learning path 
 
-- Projects done during my self-study of fundamentals of [python programming](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+- Fndamentals of [python programming](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+- [Scientific computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
 
 ## Technologies
 
