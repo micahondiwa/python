@@ -13,4 +13,4 @@ puzzle = [
   [0, 0, 0, 5, 1, 9, 0, 0, 8],
   [1, 7, 0, 0, 0, 6, 0, 0, 5]
 ]
-gameboard = Board()
+gameboard = Board(puzzle)
