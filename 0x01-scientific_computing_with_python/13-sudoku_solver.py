@@ -1,5 +1,5 @@
 class Board:
-    def __init__(self):
+    def __init__(self, board):
         pass
 
 puzzle = [
