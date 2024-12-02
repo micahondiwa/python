@@ -1,6 +1,6 @@
 class Board:
     def __init__(self, board):
-        pass
+        self.board = board
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
