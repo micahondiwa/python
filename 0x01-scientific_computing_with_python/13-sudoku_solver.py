@@ -3,3 +3,4 @@ class Board:
         print('SPam!')
     
 gameboard = Board()
+gameboard.spam()
