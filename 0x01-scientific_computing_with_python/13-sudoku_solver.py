@@ -1,6 +1,9 @@
 class Board:
     def __init__(self, board):
         self.board = board
+    
+    def find_empty_cell(self):
+        pass
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
