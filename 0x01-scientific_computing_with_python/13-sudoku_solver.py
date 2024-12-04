@@ -24,4 +24,4 @@ puzzle = [
 ]
 
 gameboard = Board(puzzle)
-
+print(gameboard.find_empty_cell())
