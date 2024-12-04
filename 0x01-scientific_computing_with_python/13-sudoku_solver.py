@@ -9,6 +9,7 @@ class Board:
                 return row, col
             except ValueError:
                 pass
+        return None
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
