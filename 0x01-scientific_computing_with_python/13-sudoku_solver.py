@@ -75,6 +75,4 @@ puzzle = [
   [1, 7, 0, 0, 0, 6, 0, 0, 5]
 ]
 
-gameboard = Board(puzzle)
-print(gameboard.find_empty_cell())
-print(gameboard.valid_in_square(1,0,3))
+solve_sudoku(puzzle)
