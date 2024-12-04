@@ -21,6 +21,9 @@ class Board:
         row_start = (row // 3) * 3
         col_start = (col // 3) * 3
 
+        for row_no in range(row_start, row_start + 3):
+            pass
+
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
   [0, 0, 0, 0, 0, 3, 7, 6, 2],
