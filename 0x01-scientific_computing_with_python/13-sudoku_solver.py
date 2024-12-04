@@ -19,6 +19,7 @@ class Board:
     
     def valid_in_square(self, row, col, num):
         row_start = (row // 3) * 3
+        col_start = (col // 3) * 3
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
