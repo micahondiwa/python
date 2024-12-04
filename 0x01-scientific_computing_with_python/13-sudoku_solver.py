@@ -7,7 +7,7 @@ class Board:
             try:
                 col = contents.index(0)
                 return row, col
-            except:
+            except ValueError:
                 pass
 
 puzzle = [
