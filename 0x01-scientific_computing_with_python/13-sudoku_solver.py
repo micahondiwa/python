@@ -47,7 +47,7 @@ class Board:
         return False
 
 def solve_sudoku(board):
-    pass
+    gameboard = Board(board)
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
