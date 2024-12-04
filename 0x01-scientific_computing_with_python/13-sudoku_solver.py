@@ -25,6 +25,7 @@ class Board:
             for col_no in range(col_start, col_start + 3):
                 if self.board[row_no][col_no] == num:
                     return False
+        return True
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
