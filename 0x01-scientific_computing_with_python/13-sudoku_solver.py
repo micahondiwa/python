@@ -1,3 +1,8 @@
+"""0-string_manipulation_cipher.py"""
+"""
+A class thta builds a Sudoku grid and 
+solves a sudoku puzzle using the class.
+"""
 class Board:
     def __init__(self, board):
         self.board = board
