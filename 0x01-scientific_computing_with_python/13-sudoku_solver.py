@@ -44,6 +44,7 @@ class Board:
                 if self.solver():
                     return True
                 self.board[row][col] = 0
+        return False
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
