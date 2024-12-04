@@ -53,6 +53,7 @@ def solve_sudoku(board):
         print(f'Solved puzzle:\n{gameboard}')
     else:
         print('The provided puzzle is unsolvable.')
+    return gameboard
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
