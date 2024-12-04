@@ -31,6 +31,7 @@ class Board:
         row, col = empty
         valid_in_row = self.valid_in_row(row, num)
         valid_in_col = self.valid_in_col(col, num)
+        valid_in_square = self.valid_in_square(row, col, num)
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
