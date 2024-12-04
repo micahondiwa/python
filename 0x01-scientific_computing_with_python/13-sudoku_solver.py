@@ -43,6 +43,7 @@ class Board:
                 self.board[row][col] = guess
                 if self.solver():
                     return True
+                self.board[row][col] = 0
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
