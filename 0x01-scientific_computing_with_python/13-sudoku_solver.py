@@ -4,6 +4,8 @@ class Board:
     
     def __str__(self):
         board_str = ''
+        for row in self.board:
+            pass
     
     def find_empty_cell(self):
         for row, contents in enumerate(self.board):
