@@ -3,7 +3,7 @@ class Board:
         self.board = board
     
     def __str__(self):
-        pass
+        board_str = ''
     
     def find_empty_cell(self):
         for row, contents in enumerate(self.board):
