@@ -28,7 +28,7 @@ class Board:
         return True
     
     def is_valid(self, empty, num):
-        pass
+        row, col = empty
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
