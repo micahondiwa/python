@@ -2,6 +2,9 @@ class Board:
     def __init__(self, board):
         self.board = board
     
+    def __str__(self):
+        pass
+    
     def find_empty_cell(self):
         for row, contents in enumerate(self.board):
             try:
