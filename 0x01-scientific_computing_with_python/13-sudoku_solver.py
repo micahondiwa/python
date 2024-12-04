@@ -35,7 +35,8 @@ class Board:
         return all([valid_in_row, valid_in_col, valid_in_square])
     
     def solver(self):
-        pass
+        if self.find_empty_cell() is None:
+            return True
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
