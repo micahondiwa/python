@@ -4,7 +4,11 @@ class Board:
     
     def find_empty_cell(self):
         for row, contents in enumerate(self.board):
-            col = contents.index(0)
+            try:
+                col = contents.index(0)
+                return row, col
+            except:
+                pass
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
