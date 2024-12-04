@@ -18,7 +18,7 @@ class Board:
         return all(self.board[row][col] != num for row in range(9))
     
     def valid_in_square(self, row, col, num):
-        pass
+        row_start = (row // 3) * 3
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
