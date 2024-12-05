@@ -8,4 +8,6 @@ class TreeNode:
 
 
 class BinarySearchTree:
-    pass
+    def __init__(self):
+        pass
+    
