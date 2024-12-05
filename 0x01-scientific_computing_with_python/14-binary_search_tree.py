@@ -14,4 +14,7 @@ class BinarySearchTree:
     def _insert(self, node, key):
         if node is None:
             return TreeNode(key)
+        
+        if key < node.key:
+            pass
 
