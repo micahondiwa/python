@@ -5,3 +5,7 @@ class TreeNode:
         self.key = key
         self.left = None
         self.right = None
+
+
+class BinarySearchTree:
+    pass
