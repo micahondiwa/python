@@ -18,5 +18,5 @@ class R3Vector(R2Vector):
 
 v1 = R2Vector(x=2, y=3)
 v2 = R3Vector(x=2, y=2, z=3)
-print(f'v1 = {v1}', f'\nrepr = {repr(v1)}')
+print(f'v1 = {v1}')
 print(f'v2 = {v2}', f'\nrepr = {repr(v2)}')
