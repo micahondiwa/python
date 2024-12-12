@@ -74,6 +74,7 @@ class R3Vector(R2Vector):
         }
         
         return self.__class__(**kwargs)
+        
 v1 = R3Vector(x=2, y=3, z=1)
 v2 = R3Vector(x=0.5, y=1.25, z=2)
 print(f'v1 = {v1}')
