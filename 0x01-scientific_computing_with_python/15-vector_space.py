@@ -83,6 +83,5 @@ print(f'v1 + v2 = {v3}')
 v4 = v1 - v2
 print(f'v1 - v2 = {v4}')
 v5 = v1 * v2
-print(v5)
 print(f'v1 * v2 = {v5}')
 v6 = v1.cross(v2)
