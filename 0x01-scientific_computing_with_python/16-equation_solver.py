@@ -7,6 +7,10 @@ class Equation(ABC):
             raise TypeError(
                 f"'{self.__class__.__name__}' object takes {self.degree + 1} positional arguments but {len(args)} were given"
             )
+        for arg in args:
+            if not isinstance(arg, (int, float)):
+                raise TypeError("Coefficients must be of type 'int' or 'float'")
+                
     def __init_subclass__(cls):
         if not hasattr(cls, "degree"):
             raise AttributeError(
