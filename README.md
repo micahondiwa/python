@@ -14,5 +14,5 @@ Python learning path
 
 | Directory  | Description |
 | ---  | --- |
-|[0x00-python](0x00-python)|Python programming fundamentals|
+|[0x00-python_algorithms](0x00-python_algorithms)|Python programming fundamentals|
 |[0x01-scientific_computing_with_python](0x01-scientific_computing_with_python)|Implementing key python concepts like data structures, algorithm, Object Oriented Programming, and how to perform complex calculations using a variety of tools.|
