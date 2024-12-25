@@ -1,0 +1,13 @@
+# you can use `read` to get standard input
+#!/user/bin/bash
+
+sum=0
+read -a numbers
+
+for number in "${numbers[@]}"
+do
+abs=$(echo $number | tr -d -)
+sum=$((sum + abs))
+done
+
+echo $sum
