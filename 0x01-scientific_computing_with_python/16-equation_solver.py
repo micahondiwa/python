@@ -33,4 +33,5 @@ class LinearEquation(Equation):
     
     def analyze(self):
         pass
+    
 lin_eq = LinearEquation(2, 3)
