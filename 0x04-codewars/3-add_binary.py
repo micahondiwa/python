@@ -9,4 +9,15 @@ Examples:
 
 def add_binary(a,b):
     sum = a + b
+
+    if sum == 0:
+        return 0
     
+    binary = ""
+    while sum > 0:
+        remainder = sum % 2
+        binary = str(remainder) + binary
+        sum = sum // 2
+    return binary
+
+print(add_binary(5, 9))
