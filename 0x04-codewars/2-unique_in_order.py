@@ -16,3 +16,4 @@ def unique_in_order(sequence):
     return unique
 
 sequence = unique_in_order('AAAABBBCCDAABBB')
+print(unique_in_order(sequence=sequence))
