@@ -7,3 +7,13 @@ alphabets (both upercase and lowercase) and numeric digits.
 "aabbcde" -> 2 # 'a' and 'b'
 "aabBcde" -> 2 # 'a' occurs twice and 'b' twice (`b` and `B`)
 """
+
+def duplicate_count(text):
+    counts = {}
+
+    for char in text.lower():
+        counts[char] = counts.get(char, 0) + 1
+
+    duplicates = 0
+    
+    for 
