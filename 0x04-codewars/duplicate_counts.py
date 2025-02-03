@@ -15,5 +15,13 @@ def duplicate_count(text):
         counts[char] = counts.get(char, 0) + 1
 
     duplicates = 0
-    
-    for 
+
+    for count in counts.values():
+        if count > 1:
+            duplicates += 1
+    return duplicates
+
+print(f"duplicate counts in 'abcde':  {duplicate_count('abcde')}")
+print(duplicate_count("aabbcde"))
+print(duplicate_count("indivisibility"))
+print(duplicate_count("Indivisibilities"))
