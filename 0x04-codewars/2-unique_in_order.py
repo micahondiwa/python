@@ -11,7 +11,7 @@ def unique_in_order(sequence):
     unique = []
 
     for char in sequence:
-        if not unique or char =! unique[-1]:
+        if not unique or char == unique[-1]:
             unique.append(char)
     return unique
 
