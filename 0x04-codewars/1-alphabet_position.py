@@ -8,8 +8,8 @@ Output = "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 1
 """
 
 def alphabet_position(text):
-    position = [str(ord(char) - 96) for char in text.lower() if char.isalpha()]
+    position=[str(ord(char)-96) for char in text if char.isalpha()]
     return ' '.join(position)
 
-Input = "The sunset sets at twelve o' clock."
+Input = "Thesunsetsetsattwelveo'clock."
 print(alphabet_position(text=input))
