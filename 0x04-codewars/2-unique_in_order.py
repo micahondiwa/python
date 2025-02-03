@@ -14,3 +14,5 @@ def unique_in_order(sequence):
         if not unique or char =! unique[-1]:
             unique.append(char)
     return unique
+
+sequence = unique_in_order('AAAABBBCCDAABBB')
