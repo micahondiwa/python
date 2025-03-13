@@ -10,4 +10,4 @@ def two_sum(arr, target):
             if arr[i] == target - arr[j] and j != i:
                 return i, j 
 
-print(two_sum([3,2,4], 6))
+print(two_sum([4, 3, 7, 8, 9, 5], 9))
