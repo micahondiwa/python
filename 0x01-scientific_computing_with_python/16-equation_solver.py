@@ -74,8 +74,13 @@ class QuadraticEquation(Equation):
             return [x1]
 
         return [x1, x2]
+
     def analyze(self):
-        pass
+        a, b, c = self.coefficients.values()
+        x = -b / (2 * a)
+        y = a * x**2 + b * x + c
+        
+        return {'x': x, 'y': y}
 lin_eq = LinearEquation(2, 3)
 print(lin_eq)
 quadr_eq = QuadraticEquation(1, 2, 1)
