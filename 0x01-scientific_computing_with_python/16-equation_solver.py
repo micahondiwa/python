@@ -50,7 +50,8 @@ class LinearEquation(Equation):
     def solve(self):
         a, b = self.coefficients.values()
         x = -b / a
-        return x
+        return [x]
+
     def analyze(self):
         slope, intercept = self.coefficients.values()
         return {'slope': slope, 'intercept': intercept}
@@ -73,11 +74,8 @@ class QuadraticEquation(Equation):
             return [x1]
 
         return [x1, x2]
-
     def analyze(self):
         pass
-
-
 lin_eq = LinearEquation(2, 3)
 print(lin_eq)
 quadr_eq = QuadraticEquation(1, 2, 1)
