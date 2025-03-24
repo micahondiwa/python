@@ -79,10 +79,13 @@ class QuadraticEquation(Equation):
         a, b, c = self.coefficients.values()
         x = -b / (2 * a)
         y = a * x**2 + b * x + c
-        
-        return {'x': x, 'y': y}
+        if a > 0:
+            concavity = 'upwards'
+            min_max = 'min'
+        else:
+            concavity = 'downwards'
+            min_max = 'max'
+        return {'x': x, 'y': y, 'min_max': min_max, 'concavity': concavity}
+
 lin_eq = LinearEquation(2, 3)
-print(lin_eq)
 quadr_eq = QuadraticEquation(1, 2, 1)
-print(quadr_eq)
-print(quadr_eq.solve())
