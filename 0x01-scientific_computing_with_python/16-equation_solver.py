@@ -3,6 +3,7 @@ import re
 
 class Equation(ABC):
     degree: int
+    type: str
   
     def __init__(self, *args):
         if (self.degree + 1) != len(args):
@@ -20,6 +21,10 @@ class Equation(ABC):
             raise AttributeError(
                 f"Cannot create '{cls.__name__}' class: missing required attribute 'degree'"
             )
+        if not hasattr(cls, "type"):
+            raise AttributeError(
+                f"Cannot create '{cls.__name__}' class: missing required attribute 'type'"
+                )
 
     def __str__(self):
         terms = []
@@ -45,6 +50,7 @@ class Equation(ABC):
         
 class LinearEquation(Equation):
     degree = 1
+    type = 'Linear Equation'
     
     def solve(self):
         a, b = self.coefficients.values()
@@ -57,6 +63,7 @@ class LinearEquation(Equation):
 
 class QuadraticEquation(Equation):
     degree = 2
+    type = 'Quadratic Equation'
     def __init__(self, *args):
         super().__init__(*args)
         a, b, c = self.coefficients.values()
