@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import re
 
+
 class Equation(ABC):
     degree: int
     type: str
@@ -24,7 +25,7 @@ class Equation(ABC):
         if not hasattr(cls, "type"):
             raise AttributeError(
                 f"Cannot create '{cls.__name__}' class: missing required attribute 'type'"
-                )
+            )
 
     def __str__(self):
         terms = []
@@ -47,7 +48,8 @@ class Equation(ABC):
     @abstractmethod
     def analyze(self):
         pass
-        
+
+
 class LinearEquation(Equation):
     degree = 1
     type = 'Linear Equation'
@@ -61,9 +63,11 @@ class LinearEquation(Equation):
         slope, intercept = self.coefficients.values()
         return {'slope': slope, 'intercept': intercept}
 
+
 class QuadraticEquation(Equation):
     degree = 2
     type = 'Quadratic Equation'
+
     def __init__(self, *args):
         super().__init__(*args)
         a, b, c = self.coefficients.values()
@@ -92,10 +96,35 @@ class QuadraticEquation(Equation):
             min_max = 'max'
         return {'x': x, 'y': y, 'min_max': min_max, 'concavity': concavity}
 
+
 def solver(equation):
     if not isinstance(equation, Equation):
         raise TypeError("Argument must be an Equation object")
 
-
+    output_string = f'\n{equation.type:-^24}'
+    output_string += f'\n\n{equation!s:^24}\n\n'
+    output_string += f'{"Solutions":-^24}\n\n'
+    results = equation.solve()
+    match results:
+        case []:
+            result_list = ['No real roots']
+        case [x]:
+            result_list = [f'x = {x:+.3f}']
+        case [x1, x2]:
+            result_list = [f'x1 = {x1:+.3f}', f'x2 = {x2:+.3f}']
+    for result in result_list:
+        output_string += f'{result:^24}\n'
+    output_string += f'\n{"Details":-^24}\n\n'
+    details = equation.analyze()
+    match details:
+        case {'slope': slope, 'intercept': intercept}:
+            details_list = [f'slope = {slope:>16.3f}', f'y-intercept = {intercept:>10.3f}']
+        case {'x': x, 'y': y, 'min_max': min_max, 'concavity': concavity}:
+            coord = f'({x:.3f}, {y:.3f})'
+            details_list = [f'concavity = {concavity:>12}', f'{min_max} = {coord:>18}']
+    for detail in details_list:
+        output_string += f'{detail}\n'
+    return output_string
 lin_eq = LinearEquation(2, 3)
 quadr_eq = QuadraticEquation(1, 2, 1)
+print(solver(quadr_eq))
