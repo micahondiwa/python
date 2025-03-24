@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 import re
 
-
 class Equation(ABC):
     degree: int
   
@@ -58,7 +57,6 @@ class LinearEquation(Equation):
 
 class QuadraticEquation(Equation):
     degree = 2
-
     def __init__(self, *args):
         super().__init__(*args)
         a, b, c = self.coefficients.values()
@@ -86,6 +84,11 @@ class QuadraticEquation(Equation):
             concavity = 'downwards'
             min_max = 'max'
         return {'x': x, 'y': y, 'min_max': min_max, 'concavity': concavity}
+
+def solver(equation):
+    if not isinstance(equation, Equation):
+        raise TypeError("Argument must be an Equation object")
+
 
 lin_eq = LinearEquation(2, 3)
 quadr_eq = QuadraticEquation(1, 2, 1)
