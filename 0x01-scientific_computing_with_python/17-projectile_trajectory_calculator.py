@@ -11,10 +11,14 @@ x_axis_tick = "T"
 y_axis_tick = "⊣"
 
 class Projectile:
+    __slots__ = ('__speed', '__height', '__angle')
 
     def __init__(self, speed, height, angle):
         self.__speed = speed
         self.__height = height
         self.__angle = math.radians(angle)
-    
-    __slots__ = ("__speed", "__height", "__angle")
+        
+    def __calculate_displacement(self):
+        g = GRAVITATIONAL_ACCELERATION
+        d = (self.__speed * math.cos(self.__angle) * (self.__speed * math.sin(self.__angle) + math.sqrt(self.__speed ** 2 * math.sin(self.__angle)**2 + 2 * g * self.__height))) / g
+        return d 
