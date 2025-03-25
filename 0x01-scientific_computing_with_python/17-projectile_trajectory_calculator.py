@@ -17,7 +17,15 @@ class Projectile:
         self.__speed = speed
         self.__height = height
         self.__angle = math.radians(angle)
-
+        
+    def __str__(self):
+        return f'''
+Projectile details:
+speed: {self.__speed} m/s
+height: {self.__height} m
+angle: {round(math.degrees(self.__angle))}°
+displacement: {round(self.__calculate_displacement(), 1)} m
+'''
 
     def __calculate_displacement(self):
         horizontal_component = self.__speed * math.cos(self.__angle)
@@ -27,3 +35,9 @@ class Projectile:
         sqrt_component = math.sqrt(squared_component + gh_component)
         
         return horizontal_component * (vertical_component + sqrt_component) / GRAVITATIONAL_ACCELERATION
+        
+    
+
+ball = Projectile(10, 3, 45)
+print(ball)
+   
