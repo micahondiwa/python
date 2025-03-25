@@ -1,3 +1,8 @@
+""""
+Implements an interface by building an equation solver.
+An interface is like a blueprint for a class. 
+An interface contains a set of methods and properties that a class should implement.
+""""
 from abc import ABC, abstractmethod
 import re
 
