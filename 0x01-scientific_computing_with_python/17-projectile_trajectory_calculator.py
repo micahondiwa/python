@@ -17,8 +17,13 @@ class Projectile:
         self.__speed = speed
         self.__height = height
         self.__angle = math.radians(angle)
-        
+
+
     def __calculate_displacement(self):
-        g = GRAVITATIONAL_ACCELERATION
-        d = (self.__speed * math.cos(self.__angle) * (self.__speed * math.sin(self.__angle) + math.sqrt(self.__speed ** 2 * math.sin(self.__angle)**2 + 2 * g * self.__height))) / g
-        return d 
+        horizontal_component = self.__speed * math.cos(self.__angle)
+        vertical_component = self.__speed * math.sin(self.__angle)
+        squared_component = vertical_component**2
+        gh_component = 2 * GRAVITATIONAL_ACCELERATION * self.__height
+        sqrt_component = math.sqrt(squared_component + gh_component)
+        
+        return horizontal_component * (vertical_component + sqrt_component) / GRAVITATIONAL_ACCELERATION
